@@ -34,6 +34,7 @@ struct ProductCardView: View {
                     .fontWeight(.semibold)
                     .lineLimit(2)
                     .padding(.top, 8)
+                    .accessibilityIdentifier("ProductName-\(product.productId)")
 
 
                 HStack(alignment: .center, spacing: 2) {

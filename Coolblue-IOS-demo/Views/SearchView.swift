@@ -39,6 +39,7 @@ struct SearchView: View {
             }
             .navigationTitle(Strings.appTitle)
             .searchable(text: $viewModel.query, prompt: Strings.searchProducts)
+            .accessibilityIdentifier("SearchBar")
             .onSubmit(of: .search) {
                 Task { await viewModel.search() }
             }

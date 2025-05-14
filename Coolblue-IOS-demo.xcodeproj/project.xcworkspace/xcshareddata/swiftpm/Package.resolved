@@ -1,0 +1,24 @@
+{
+  "originHash" : "cef20a3459de77247a140930567f1a7ff67f6e82e4823001f1d0a29d17e3e69f",
+  "pins" : [
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "7deda23bbdca612076c5c315003d8638a08ed0f1",
+        "version" : "8.3.2"
+      }
+    },
+    {
+      "identity" : "sfsafesymbols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SFSafeSymbols/SFSafeSymbols",
+      "state" : {
+        "revision" : "3dd282d3269b061853a3b3bcd23a509d2aa166ce",
+        "version" : "6.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

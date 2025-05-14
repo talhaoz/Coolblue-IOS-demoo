@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C91AB9112DD290F900441469 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C91AB9102DD290F900441469 /* Kingfisher */; };
+		C91AB92A2DD49C7E00441469 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = C91AB9292DD49C7E00441469 /* SFSafeSymbols */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C91AB8B52DD01A3A00441469 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91AB92A2DD49C7E00441469 /* SFSafeSymbols in Frameworks */,
+				C91AB9112DD290F900441469 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			);
 			name = "Coolblue-IOS-demo";
 			packageProductDependencies = (
+				C91AB9102DD290F900441469 /* Kingfisher */,
+				C91AB9292DD49C7E00441469 /* SFSafeSymbols */,
 			);
 			productName = "Coolblue-IOS-demo";
 			productReference = C91AB8A22DD01A3800441469 /* Coolblue-IOS-demo.app */;
@@ -195,6 +204,10 @@
 			);
 			mainGroup = C91AB8992DD01A3800441469;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C91AB90F2DD290F800441469 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C91AB9282DD49C7E00441469 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C91AB8A32DD01A3800441469 /* Products */;
 			projectDirPath = "";
@@ -550,6 +563,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C91AB90F2DD290F800441469 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		C91AB9282DD49C7E00441469 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C91AB9102DD290F900441469 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C91AB90F2DD290F800441469 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C91AB9292DD49C7E00441469 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C91AB9282DD49C7E00441469 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C91AB89A2DD01A3800441469 /* Project object */;
 }

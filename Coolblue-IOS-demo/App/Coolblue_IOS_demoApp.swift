@@ -8,13 +8,14 @@
 import SwiftUI
 
 @main
+@MainActor
 struct Coolblue_IOS_demoApp: App {
-    let persistenceController = PersistenceController.shared
+    let container = AppDIContainer()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(container)
         }
     }
 }

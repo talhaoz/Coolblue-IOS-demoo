@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1E9166EB-8EB3-40F7-83B5-FF84A6B25190"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37321852-2BFD-4A95-9756-171F59ECDB6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Coolblue-IOS-demo/Services/ProductAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "searchProducts(query:page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37321852-2BFD-4A95-9756-171F59ECDB6A - 3b47dbbbe3be69d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Coolblue_IOS_demo.ProductAPIClient.searchProducts(query: Swift.String, page: Swift.Int) async throws -&gt; Coolblue_IOS_demo.SearchResponse"
+                  moduleName = "Coolblue-IOS-demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talha.oz/Documents/IOSProjects/RickAndMortyApp/CoolblueDemo/Coolblue-IOS-demo/Coolblue-IOS-demo/Services/ProductAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "37321852-2BFD-4A95-9756-171F59ECDB6A - 45e45a2c82f107d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Coolblue_IOS_demo.ProductAPIClient.searchProducts(query: Swift.String, page: Swift.Int) async throws -&gt; Coolblue_IOS_demo.SearchResponse"
+                  moduleName = "Coolblue-IOS-demo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talha.oz/Documents/IOSProjects/RickAndMortyApp/CoolblueDemo/Coolblue-IOS-demo/Coolblue-IOS-demo/Services/ProductAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
